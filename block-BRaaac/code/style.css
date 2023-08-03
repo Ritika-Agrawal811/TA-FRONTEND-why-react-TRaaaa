@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.container {
+  width: min(95%, 500px);
+  margin: 4em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: sans-serif;
+  margin-bottom: 1em;
+}
+
+.movie_input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.15rem;
+}
+
+.movies_list {
+  width: 100%;
+  margin: 1em 0;
+  list-style-type: none;
+}
+
+.movies_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em 1em;
+  background-color: #fff;
+  margin-bottom: 1em;
+}
+
+.movies_list h3 {
+  font-family: sans-serif;
+}
+
+.movies_list button {
+  font-size: 0.95rem;
+  padding: 0.5em 1.5em;
+  background-color: rgb(55, 7, 122);
+  border: 0;
+  color: #fff;
+}

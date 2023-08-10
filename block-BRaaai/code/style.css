@@ -89,7 +89,7 @@ p {
 
 .content-details {
   display: flex;
-  gap: 1em;
+  gap: 1.15em;
   font-size: 1.05rem;
 }
 

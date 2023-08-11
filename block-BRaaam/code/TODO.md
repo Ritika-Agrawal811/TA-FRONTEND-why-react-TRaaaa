@@ -7,3 +7,7 @@
 - If you are using any drawing tools take screenshot and upload.
 
 - ![Twitter Layout](./twitter.jpg)
+
+#### Components on Twitter Interface
+
+![Twitter Components Layout](./components.png)
